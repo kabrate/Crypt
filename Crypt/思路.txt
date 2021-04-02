@@ -1,0 +1,41 @@
+发送的消息
+<i.d.=.1.6.>.<.v.e.r.=.1...9...0.>.<.s.n.=.N.e.n.o.>.<.c.d.k.=.1.1.1.1.
+1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.>.<.i.p.=.0...0...0...0.>
+接受的消息-失败
+ <.!.-.-.>.*.<.r.
+ z.=.".1.0.0.4.".
+ >.*.<.r.e.g.=.".
+ ".>.*.<.n.o.t.e.
+ =.".".>.*.<.!.!.
+ !.-.-.-.*.*.*.>.
+接受的消息-成功
+<!-->*<rz=\"1001\">*<reg=\"PHZlcj0iMi44NyI+KjxjZGs9IkRFTVlKVkhZTkZWRE1YRkZPR0tEIj4qPHJlZz0iMDAzRUNBMzVEM0IzOTY1RDYwNkZCRUJGNUNGRUFCNDEiPg==\">*<note=\"\">*<!!!---***>
+其中
+PHZlcj0iMi44NyI+KjxjZGs9IkRFTVlKVkhZTkZWRE1YRkZPR0tEIj4qPHJlZz0iMDAzRUNBMzVEM0IzOTY1RDYwNkZCRUJGNUNGRUFCNDEiPg==  base加密后
+<ver="2.87">*<cdk="DEMYJVHYNFVDMXFFOGKD">*<reg="003ECA35D3B3965D606FBEBF5CFEAB41">  base解密后
+aes加密后
+003ECA35
+D3B3965D
+606FBEBF
+5CFEAB41
+
+获得reg流程
+机器码
+Neno  末尾少几个数字补充0x几
+异或加密
+xia0x1ngA-ESC-BC
+aes加密
+HLJ2's gameID=12
+base64加密
+
+解析reg流程
+base64解密
+aes解密
+HLJ2's gameID=12
+异或解密密
+xia0x1ngA-ESC-BC
+
+1解包获取数据格式，自己根据sn计算数据，通过本地服务器接受数据，或者在程序中固定数据。
+2找到flag值，修改跳转条件
+3手动修改注册表
+4接受的数据中隐藏着正确的注册码
